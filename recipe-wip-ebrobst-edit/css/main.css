@@ -1,0 +1,125 @@
+html{
+  font: 100%/1.5 sans-serif;
+  -webkit-text-size-adjust: 100%;
+scroll-behavior: smooth;
+}
+
+img.ChickenAppleSausageRice.svg{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+
+body {
+  max-width: 60rem;
+  background-color:#34495E;
+  color: #FF7F50;
+  font-family:"Times New Roman", serif;
+  padding: 0 3.5%;
+  padding: 1.2rem;
+  margin: 0 auto;
+}
+dl,
+ol,
+ul {
+
+  padding-left: 1.4em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+dd{
+  margin-left: 0;
+
+}
+ol,
+ul {
+  padding-left: 1.4em;
+}
+
+header{
+padding-top: 3.5em;
+}
+header h1 {
+  font-family: cursive;
+  font-size: 2.5em;
+  font-weight: normal;
+  word-spacing: -.075em;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+   h2 {
+    font-family: cursive;
+    font-size: 2.5em;
+    font-weight: normal;
+    word-spacing: -.075em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+nav ul {
+  list-style: circle;
+  padding-left: 0;
+
+}
+  nav li {
+    margin-top: 1rem;
+  }
+  .info dt {
+    margin-top: 1rem;
+      }
+  .info dd{
+    margin-top: .5rem;
+  }
+  .list {
+    list-style-position: inside;
+    padding-left: 0;
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+  }
+  .list li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px dashed #000;
+
+  }
+
+  p,
+  li {
+    font-size: 1.1em;
+    line-height: 1.45;
+    hanging-punctuation: first;
+  }
+
+  p.byline {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  p.byline,
+  time {
+    font-family:serif;
+  }
+
+
+  img.recipe-headshot-jpg {
+    max-width: 3em;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-right: .5rem;
+  }
+
+@media  (min-width: 60em) {
+    body {
+      font-size: 125%;
+    }
+    p.summary a {
+      display: inline-block;
+    }
+    .headshot-byline {
+      padding-top: 1.5rem;
+    }
+
+}
